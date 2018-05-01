@@ -1,0 +1,18 @@
+// Remove default browser styling and apply project-wide styles.
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+// Setting the root font size (for rem purposes).
+html {
+    font-size: 62.5%;
+}
+
+// Always apply site-wide fonts to the body element; not the universal selector
+body {
+    box-sizing: border-box;
+}

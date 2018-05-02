@@ -22,8 +22,17 @@
     }
 
     &:active {
-        box-shadow: 0 5px 10px rgba($color-black, .2);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
         transform: translateY(-0.1rem);
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
     }
 
     &--white {
